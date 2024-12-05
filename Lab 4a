@@ -1,0 +1,1 @@
+import matplotlib.pyplot as plt# Sample data for demonstrationcategories = ['0-10', '10-20', '20-30', '30-40', '40-50’]values = [55, 48, 25, 68, 90]# Create a bar plotplt.bar(categories, values, color='skyblue’)# Add labels and titleplt.xlabel('Overs’)plt.ylabel('Runs’)plt.title('Bar Plot Showing Runs scored in an ODI Match’)# Display the plotplt.show()
